@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+}
+
+
+.bar {
+    padding: 10px;
+    height: 70px;
+    width: 100%;
+    background-color: #7895B2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #52667a;
+}
+
+.bar div {
+    color: #F5EFE6;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #AEBDCA;
+    height: 100%;
+    width: 15%;
+    border-radius: 10%;
+}
+
+.bar div p {
+    transform: translateY(85%);
+}
+
+.bar div:hover{
+    background-color: #aebdcace;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
